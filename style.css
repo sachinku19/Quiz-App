@@ -1,0 +1,91 @@
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #021b24, #06313a, #092f3a);
+  color: #fff;
+  height: 100vh;
+  
+}
+
+/* QUIZ BOX */
+.quiz-box {
+  width: 420px;
+  padding: 25px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 50px 50px;
+}
+
+/* HEADING */
+h2 {
+  color: #00eaff;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 10px #00eaff;
+  margin-bottom: 20px;
+}
+
+/* OPTION BUTTONS */
+.option {
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  background: rgba(0, 255, 255, 0.1);
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+.option:hover {
+  background: rgba(0, 255, 255, 0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+/* BUTTONS */
+button {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: white;
+  height: 45px;
+  width: 100px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  margin: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00c6ff;
+}
+
+/* RESULT BOX */
+#resultBox {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #00eaff;
+}
+
+/* ICONIC STYLE */
+.quiz-box h1 {
+  font-size: 22px;
+  color: #ffb300;
+  text-shadow: 0 0 10px #ffb300;
+}
